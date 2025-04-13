@@ -13,6 +13,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("stdlib-jdk8"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
+    implementation("org.bouncycastle:bcpkix-jdk18on:1.80")
 
     testImplementation(kotlin("test"))
 }
